@@ -16,6 +16,13 @@ public class Candidato {
     @OneToMany(mappedBy = "candidato")
     private List<Voto> votos;
 
+    public Candidato(Long id) {
+        this.id = id;
+    }
+
+    public Candidato() {
+    }
+
     public Long getId() {
         return id;
     }
