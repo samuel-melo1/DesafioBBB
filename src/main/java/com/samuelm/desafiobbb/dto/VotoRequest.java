@@ -2,13 +2,13 @@ package com.samuelm.desafiobbb.dto;
 
 public class VotoRequest {
 
-    private Long id_candidato;
+    private Long idCandidato;
 
-    public Long getId_candidato() {
-        return id_candidato;
+    public Long getIdCandidato() {
+        return idCandidato;
     }
 
-    public void setId_candidato(Long id_candidato) {
-        this.id_candidato = id_candidato;
+    public void setIdCandidato(Long id_candidato) {
+        this.idCandidato = id_candidato;
     }
 }

@@ -12,6 +12,7 @@ public class Voto {
     private Long id;
 
     @ManyToOne
+    @JoinColumn(name = "id_candidato")
     private Candidato candidato;
     private LocalDateTime data_hora;
 
